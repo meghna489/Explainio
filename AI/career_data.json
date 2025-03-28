@@ -1,0 +1,179 @@
+{
+    "career_opportunities": [
+        {
+            "career_id": "TECH001",
+            "name": "Software Engineering",
+            "career_pathways": [
+                {
+                    "factor": "Technical Skills",
+                    "explanation": "Proficiency in programming languages and software development methodologies",
+                    "impact_score": 0.88,
+                    "development_strategies": [
+                        "Continuous learning platforms",
+                        "Coding bootcamps",
+                        "Open-source project contributions"
+                    ]
+                },
+                {
+                    "factor": "Industry Specialization",
+                    "explanation": "Focusing on specific technology domains increases market value",
+                    "impact_score": 0.76,
+                    "development_strategies": [
+                        "Niche technology certifications",
+                        "Domain-specific workshops",
+                        "Targeted professional networking"
+                    ]
+                }
+            ],
+            "career_progression_criteria": {
+                "entry_requirements": [
+                    "Bachelor's degree in Computer Science",
+                    "Programming portfolio",
+                    "Technical interviews"
+                ],
+                "progression_thresholds": {
+                    "entry_level_experience": "0-2 years",
+                    "mid_level_experience": "3-5 years"
+                }
+            },
+            "advancement_pathways": [
+                {
+                    "stage": "Entry Level",
+                    "recommended_actions": [
+                        "Junior developer roles",
+                        "Mentorship programs",
+                        "Skill diversification"
+                    ]
+                },
+                {
+                    "stage": "Senior Level",
+                    "recommended_actions": [
+                        "Technical leadership",
+                        "Architecture design",
+                        "Specialized consultancy"
+                    ]
+                }
+            ]
+        },
+        {
+            "career_id": "BUSI002",
+            "name": "Digital Marketing",
+            "career_pathways": [
+                {
+                    "factor": "Digital Competencies",
+                    "explanation": "Mastery of online marketing platforms and analytics tools",
+                    "impact_score": 0.82,
+                    "development_strategies": [
+                        "Platform-specific certifications",
+                        "Data analytics training",
+                        "Performance marketing workshops"
+                    ]
+                },
+                {
+                    "factor": "Creative Strategy",
+                    "explanation": "Developing innovative content and campaign approaches",
+                    "impact_score": 0.75,
+                    "development_strategies": [
+                        "Content creation courses",
+                        "Brand storytelling workshops",
+                        "Creative portfolio development"
+                    ]
+                }
+            ],
+            "career_progression_criteria": {
+                "entry_requirements": [
+                    "Marketing or communications degree",
+                    "Digital marketing certification",
+                    "Portfolio of successful campaigns"
+                ],
+                "progression_thresholds": {
+                    "entry_level_experience": "0-2 years",
+                    "mid_level_experience": "3-5 years"
+                }
+            },
+            "advancement_pathways": [
+                {
+                    "stage": "Entry Level",
+                    "recommended_actions": [
+                        "Social media marketing",
+                        "Content creation",
+                        "Digital advertising"
+                    ]
+                },
+                {
+                    "stage": "Advanced Level",
+                    "recommended_actions": [
+                        "Strategic marketing leadership",
+                        "Digital transformation consulting",
+                        "Marketing technology integration"
+                    ]
+                }
+            ]
+        },
+        {
+            "career_id": "HEAL003",
+            "name": "Healthcare Administration",
+            "career_pathways": [
+                {
+                    "factor": "Healthcare Management Skills",
+                    "explanation": "Understanding healthcare systems, regulations, and operational dynamics",
+                    "impact_score": 0.80,
+                    "development_strategies": [
+                        "Healthcare policy courses",
+                        "Healthcare management certification",
+                        "Hospital operations workshops"
+                    ]
+                },
+                {
+                    "factor": "Strategic Leadership",
+                    "explanation": "Developing comprehensive healthcare organizational strategies",
+                    "impact_score": 0.72,
+                    "development_strategies": [
+                        "Leadership development programs",
+                        "Healthcare innovation seminars",
+                        "Strategic planning workshops"
+                    ]
+                }
+            ],
+            "career_progression_criteria": {
+                "entry_requirements": [
+                    "Bachelor's in Healthcare Administration",
+                    "Healthcare management certification",
+                    "Internship experience"
+                ],
+                "progression_thresholds": {
+                    "entry_level_experience": "0-3 years",
+                    "mid_level_experience": "4-7 years"
+                }
+            },
+            "advancement_pathways": [
+                {
+                    "stage": "Initial Stage",
+                    "recommended_actions": [
+                        "Department coordination",
+                        "Operational management",
+                        "Compliance roles"
+                    ]
+                },
+                {
+                    "stage": "Executive Level",
+                    "recommended_actions": [
+                        "Hospital executive leadership",
+                        "Healthcare system strategy",
+                        "Healthcare policy advisory"
+                    ]
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "dataset_version": "1.0",
+        "last_updated": "2024-03-27",
+        "purpose": "Career Development and Opportunity Analysis",
+        "feature_focus": [
+            "Career Path Exploration",
+            "Skill Development Mapping",
+            "Professional Growth Strategies"
+        ]
+    }
+}

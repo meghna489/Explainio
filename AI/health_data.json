@@ -1,0 +1,178 @@
+{
+    "medical_conditions": [
+        {
+            "condition_id": "CHD001",
+            "name": "Coronary Heart Disease",
+            "risk_factors": [
+                {
+                    "factor": "High Cholesterol",
+                    "explanation": "Cholesterol buildup narrows arteries, reducing blood flow to heart",
+                    "impact_score": 0.85,
+                    "mitigation_strategies": [
+                        "Diet modification",
+                        "Statin medications",
+                        "Regular exercise"
+                    ]
+                },
+                {
+                    "factor": "Obesity",
+                    "explanation": "Excess body weight increases strain on cardiovascular system",
+                    "impact_score": 0.72,
+                    "mitigation_strategies": [
+                        "Weight loss programs",
+                        "Nutritional counseling",
+                        "Physical activity"
+                    ]
+                }
+            ],
+            "diagnostic_criteria": {
+                "tests": [
+                    "Cholesterol panel",
+                    "ECG",
+                    "Stress test"
+                ],
+                "diagnostic_thresholds": {
+                    "LDL_cholesterol": ">160 mg/dL",
+                    "HDL_cholesterol": "<40 mg/dL"
+                }
+            },
+            "treatment_pathways": [
+                {
+                    "stage": "Early Intervention",
+                    "recommended_actions": [
+                        "Lifestyle modifications",
+                        "Medication management"
+                    ]
+                },
+                {
+                    "stage": "Advanced Stage",
+                    "recommended_actions": [
+                        "Angioplasty",
+                        "Stent placement",
+                        "Bypass surgery"
+                    ]
+                }
+            ]
+        },
+        {
+            "condition_id": "DIA002",
+            "name": "Type 2 Diabetes",
+            "risk_factors": [
+                {
+                    "factor": "Genetic Predisposition",
+                    "explanation": "Inherited genetic variations affect insulin production and sensitivity",
+                    "impact_score": 0.65,
+                    "mitigation_strategies": [
+                        "Regular screening",
+                        "Lifestyle modifications",
+                        "Genetic counseling"
+                    ]
+                },
+                {
+                    "factor": "Sedentary Lifestyle",
+                    "explanation": "Lack of physical activity reduces insulin sensitivity",
+                    "impact_score": 0.78,
+                    "mitigation_strategies": [
+                        "Regular exercise",
+                        "Physical activity tracking",
+                        "Structured fitness programs"
+                    ]
+                }
+            ],
+            "diagnostic_criteria": {
+                "tests": [
+                    "Fasting Blood Glucose",
+                    "HbA1c Test",
+                    "Oral Glucose Tolerance Test"
+                ],
+                "diagnostic_thresholds": {
+                    "fasting_glucose": ">126 mg/dL",
+                    "HbA1c": ">6.5%"
+                }
+            },
+            "treatment_pathways": [
+                {
+                    "stage": "Initial Management",
+                    "recommended_actions": [
+                        "Dietary counseling",
+                        "Metformin medication",
+                        "Blood glucose monitoring"
+                    ]
+                },
+                {
+                    "stage": "Advanced Management",
+                    "recommended_actions": [
+                        "Insulin therapy",
+                        "Multiple medication approach",
+                        "Comprehensive metabolic management"
+                    ]
+                }
+            ]
+        },
+        {
+            "condition_id": "MHD003",
+            "name": "Depression",
+            "risk_factors": [
+                {
+                    "factor": "Biochemical Imbalance",
+                    "explanation": "Neurotransmitter disruptions affecting mood regulation",
+                    "impact_score": 0.70,
+                    "mitigation_strategies": [
+                        "Antidepressant medication",
+                        "Neurotransmitter balancing techniques",
+                        "Psychological therapy"
+                    ]
+                },
+                {
+                    "factor": "Chronic Stress",
+                    "explanation": "Prolonged stress impacts neurological and hormonal systems",
+                    "impact_score": 0.75,
+                    "mitigation_strategies": [
+                        "Stress management techniques",
+                        "Cognitive behavioral therapy",
+                        "Mindfulness practices"
+                    ]
+                }
+            ],
+            "diagnostic_criteria": {
+                "assessment_tools": [
+                    "PHQ-9 Depression Screening",
+                    "Beck Depression Inventory",
+                    "Clinical psychiatric evaluation"
+                ],
+                "diagnostic_thresholds": {
+                    "PHQ9_score": ">10",
+                    "symptom_duration": "2+ weeks"
+                }
+            },
+            "treatment_pathways": [
+                {
+                    "stage": "Initial Intervention",
+                    "recommended_actions": [
+                        "Psychological counseling",
+                        "Mild antidepressants",
+                        "Lifestyle modification"
+                    ]
+                },
+                {
+                    "stage": "Intensive Management",
+                    "recommended_actions": [
+                        "Combination therapy",
+                        "Specialized psychiatric support",
+                        "Comprehensive mental health program"
+                    ]
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "dataset_version": "1.0",
+        "last_updated": "2024-03-27",
+        "purpose": "Explainable AI Training in Healthcare",
+        "feature_focus": [
+            "Comprehensive Risk Assessment",
+            "Diagnostic Reasoning",
+            "Treatment Pathway Explanation"
+        ]
+    }
+}
