@@ -1,0 +1,271 @@
+:root {
+    --dark-bg: #121212;
+    --dark-surface: #1E1E1E;
+    --primary-accent: #64a3df;
+    --secondary-accent: #4DFFC3;
+    --text-primary: #E0E0E0;
+    --text-secondary: #B0B0B0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--dark-surface);
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-accent);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--primary-accent);
+}
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, var(--dark-bg) 0%, var(--dark-surface) 100%);
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: var(--secondary-accent);
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    max-width: 800px;
+    margin: 0 auto 30px;
+    opacity: 0;
+    animation: fadeInUp 1s 0.5s forwards;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--primary-accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.2s cubic-bezier(0.25, 1.5, 0.5, 1); /* Makes pop effect smoother */
+    opacity: 0;
+    animation: fadeInUp 1s 1s forwards;
+    border: none;
+    cursor: pointer;
+    transform: scale(1); /* Start at normal size */
+}
+
+.cta-button:hover {
+    transform: scale(1.2); /* Slight zoom effect */
+    background-color: #4ec3d4;
+}
+
+
+
+/* Features Section */
+.features {
+    background-color: var(--dark-surface);
+    padding: 80px 0;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.feature {
+    background-color: var(--dark-bg);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.feature h3 {
+    color: var(--secondary-accent);
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--dark-surface) 0%, var(--dark-bg) 100%);
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-form h2 {
+    text-align: center;
+    justify-content: center;
+    color: var(--secondary-accent);
+    margin-bottom: 30px;
+    display:flex;
+}
+/* .contact-form span {
+    /* text-align: center;
+    color: var(--secondary-accent);
+    margin-bottom: 30px; */
+    /* display:flex;
+    gap:150px;
+/* } */ 
+
+
+
+/* Footer */
+footer{
+    background-color: var(--dark-surface);
+    color: var(--text-secondary);
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+/* ... your existing CSS ... */
+
+/* Animated Logo Styles */
+.animated-logo {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    white-space: nowrap;
+}
+
+.de-logo {
+    color: #00bfff; /* Neon blue for "De" */
+    animation: de-logo-fade-in 1s ease-in-out forwards;
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.7); /* Glow effect */
+}
+
+.code-logo {
+    color: #c0c0c0; /* Light silver for "coDe" */
+    animation: code-logo-fade-in 1s ease-in-out 0.5s forwards;
+    text-shadow: 0 0 10px rgba(192, 192, 192, 0.5); /* Subtle glow effect */
+}
+
+/* Animations for Logo */
+@keyframes de-logo-fade-in {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes code-logo-fade-in {
+    0% { opacity: 0; transform: translateX(20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+/* Enhancements */
+.de-logo::before {
+    content: '[';
+    position: relative;
+    left: -10px;
+}
+
+.code-logo::after {
+    content: ']';
+    position: relative;
+    right: -10px;
+}

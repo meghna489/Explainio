@@ -1,0 +1,179 @@
+{
+    "relationship_types": [
+        {
+            "relationship_id": "ROM001",
+            "name": "Romantic Partnership",
+            "relationship_factors": [
+                {
+                    "factor": "Emotional Intimacy",
+                    "explanation": "Depth of emotional connection and mutual understanding between partners",
+                    "impact_score": 0.85,
+                    "enhancement_strategies": [
+                        "Active listening techniques",
+                        "Vulnerability exercises",
+                        "Shared emotional experiences"
+                    ]
+                },
+                {
+                    "factor": "Communication Dynamics",
+                    "explanation": "Quality and effectiveness of interpersonal communication",
+                    "impact_score": 0.82,
+                    "enhancement_strategies": [
+                        "Conflict resolution workshops",
+                        "Communication skills training",
+                        "Regular relationship check-ins"
+                    ]
+                }
+            ],
+            "relationship_progression_criteria": {
+                "developmental_stages": [
+                    "Initial Dating",
+                    "Committed Relationship",
+                    "Long-term Partnership"
+                ],
+                "progression_thresholds": {
+                    "trust_level": "High mutual vulnerability",
+                    "commitment_duration": "1+ years of consistent partnership"
+                }
+            },
+            "relationship_development_pathways": [
+                {
+                    "stage": "Early Relationship",
+                    "recommended_actions": [
+                        "Building mutual trust",
+                        "Exploring shared values",
+                        "Establishing communication patterns"
+                    ]
+                },
+                {
+                    "stage": "Advanced Relationship",
+                    "recommended_actions": [
+                        "Long-term commitment planning",
+                        "Deeper emotional integration",
+                        "Shared life goal alignment"
+                    ]
+                }
+            ]
+        },
+        {
+            "relationship_id": "FRI002",
+            "name": "Friendship",
+            "relationship_factors": [
+                {
+                    "factor": "Trust and Reliability",
+                    "explanation": "Consistency and dependability in interpersonal interactions",
+                    "impact_score": 0.80,
+                    "enhancement_strategies": [
+                        "Consistent communication",
+                        "Mutual support practices",
+                        "Transparency in interactions"
+                    ]
+                },
+                {
+                    "factor": "Shared Experiences",
+                    "explanation": "Mutual activities and common interests that strengthen bond",
+                    "impact_score": 0.75,
+                    "enhancement_strategies": [
+                        "Regular shared activities",
+                        "Collaborative experiences",
+                        "Mutual personal growth support"
+                    ]
+                }
+            ],
+            "relationship_progression_criteria": {
+                "developmental_stages": [
+                    "Casual Acquaintance",
+                    "Close Friendship",
+                    "Lifelong Companionship"
+                ],
+                "progression_thresholds": {
+                    "support_level": "Consistent mutual support",
+                    "longevity": "Multiple years of sustained connection"
+                }
+            },
+            "relationship_development_pathways": [
+                {
+                    "stage": "Initial Connection",
+                    "recommended_actions": [
+                        "Regular communication",
+                        "Shared interest exploration",
+                        "Mutual respect development"
+                    ]
+                },
+                {
+                    "stage": "Deep Friendship",
+                    "recommended_actions": [
+                        "Emotional vulnerability",
+                        "Life challenge support",
+                        "Unconditional acceptance"
+                    ]
+                }
+            ]
+        },
+        {
+            "relationship_id": "FAM003",
+            "name": "Family Relationships",
+            "relationship_factors": [
+                {
+                    "factor": "Emotional Support",
+                    "explanation": "Consistent emotional nurturing and understanding within family unit",
+                    "impact_score": 0.88,
+                    "enhancement_strategies": [
+                        "Active listening techniques",
+                        "Empathy development",
+                        "Emotional validation practices"
+                    ]
+                },
+                {
+                    "factor": "Boundary Management",
+                    "explanation": "Establishing and maintaining healthy interpersonal boundaries",
+                    "impact_score": 0.76,
+                    "enhancement_strategies": [
+                        "Clear communication of personal limits",
+                        "Respect for individual autonomy",
+                        "Conflict resolution skills"
+                    ]
+                }
+            ],
+            "relationship_progression_criteria": {
+                "developmental_stages": [
+                    "Childhood Dependency",
+                    "Adult Interdependence",
+                    "Mature Familial Relationship"
+                ],
+                "progression_thresholds": {
+                    "mutual_respect": "Balanced independence and connection",
+                    "generational_understanding": "Empathetic cross-generational communication"
+                }
+            },
+            "relationship_development_pathways": [
+                {
+                    "stage": "Early Family Dynamics",
+                    "recommended_actions": [
+                        "Establishing communication patterns",
+                        "Understanding individual needs",
+                        "Building mutual respect"
+                    ]
+                },
+                {
+                    "stage": "Mature Family Relationship",
+                    "recommended_actions": [
+                        "Supportive adult interactions",
+                        "Intergenerational understanding",
+                        "Emotional resilience building"
+                    ]
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "dataset_version": "1.0",
+        "last_updated": "2024-03-27",
+        "purpose": "Relationship Dynamics and Interpersonal Development Analysis",
+        "feature_focus": [
+            "Relationship Progression Mapping",
+            "Interpersonal Skill Development",
+            "Emotional Intelligence Exploration"
+        ]
+    }
+}
